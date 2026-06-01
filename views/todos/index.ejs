@@ -1,0 +1,107 @@
+<% layout("/layouts/boilerplate") %>
+
+<!-- Header Section -->
+<div class="d-flex justify-content-between align-items-center mb-5">
+  <h1 class="fw-bold mb-1">
+    Welcome, <%= currentUser.username %>
+  </h1>
+
+  <p class="text-secondary pt-4">
+    Stay organized, stay productive, and keep moving forward.
+  </p>
+  <a
+    href="/todos/new"
+    class="btn btn-success btn-lg"
+  >
+    + New Task
+  </a>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row mb-5">
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <h6 class="text-secondary">
+          Total Tasks
+        </h6>
+        <h2 class="fw-bold">
+          <%= allTodos.length %>
+        </h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <h6 class="text-secondary">
+          Productivity
+        </h6>
+        <h2 class="fw-bold text-success">
+          <%= productivity %>
+        </h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <h6 class="text-secondary">
+          Completed Tasks
+        </h6>
+        <h2 class="fw-bold text-primary">
+          <%= completedTodos %>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Todo Cards -->
+<div class="row">
+  <% for(let todo of allTodos) { %>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card todo-card border-0 shadow-sm py-4">
+        <div class="card-body">
+          <h4 class="fw-bold mb-3">
+            <%= todo.title %>
+          </h4>
+          <p class="text-secondary">
+            <%= todo.description %>
+          </p>
+          <span class="badge bg-primary">
+            Active
+          </span>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <form
+            action="/todos/<%= todo._id %>/toggle"
+             method="POST"
+            class="d-inline"
+          >
+            <button class="btn btn-success btn-sm">
+              <%= todo.completed
+                ? "Completed"
+                : "Mark Complete"
+              %>
+            </button>
+          </form>
+          <a    
+            href="/todos/<%= todo._id %>"
+            class="btn btn-outline-primary btn-sm"
+          >
+            View
+          </a>
+          <a
+            href="/todos/<%= todo._id %>/edit"
+            class="btn btn-outline-warning btn-sm"
+          >
+            Edit
+          </a>
+        </div>
+      </div>
+    </div>
+  <% } %>
+</div>

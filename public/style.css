@@ -1,0 +1,95 @@
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.card {
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+/* LIGHT MODE */
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  transition: all 0.3s ease;
+}
+
+/* DARK MODE */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+/* Cards */
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #2d2d2d;
+}
+
+/* Navbar */
+
+body.dark-mode .navbar {
+  background-color: #000 !important;
+}
+
+/* Footer */
+
+body.dark-mode footer {
+  background-color: #000 !important;
+}
+
+/* Inputs */
+
+body.dark-mode .form-control,
+body.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #bbb;
+}
+
+/* Buttons */
+
+.theme-btn {
+  border-radius: 50px;
+  padding: 6px 14px;
+}
+
+.todo-card {
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.todo-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.todo-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.todo-card:hover {
+  transform: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

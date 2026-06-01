@@ -1,0 +1,201 @@
+<% layout("/layouts/boilerplate") %>
+
+<!-- HERO SECTION -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center min-vh-75">
+
+      <!-- LEFT SIDE -->
+      <div class="col-lg-6">
+        <h1 class="display-3 fw-bold mb-4">
+          Organize Your Life
+          With Todo App 🚀
+        </h1>
+        <p class="lead text-secondary mb-4">
+          Manage tasks, stay productive,
+          and keep everything organized
+          in one place.
+        </p>
+        <% if(!currentUser) { %>
+          <a
+            href="/signup"
+            class="btn btn-primary btn-lg me-3"
+          >
+            Get Started
+          </a>
+          <a
+            href="/login"
+            class="btn btn-outline-success btn-lg"
+          >
+            Login
+          </a>
+        <% } else { %>
+          <a
+            href="/todos"
+            class="btn btn-success btn-lg"
+          >
+            Go To Dashboard
+          </a>
+        <% } %>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-lg-6 text-center">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png"
+          class="img-fluid"
+          style="max-height: 450px;"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+
+<section class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold display-6">
+        Why Use Todo App?
+      </h2>
+      <p class="text-secondary fs-5">
+        Stay organized, focused, and productive every single day.
+      </p>
+    </div>
+    <div class="row g-4">
+
+      <!-- FEATURE 1 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg rounded-4 h-100">
+          <div class="card-body text-center p-5">
+            <div class="display-4 mb-3">
+              ✅
+            </div>
+            <h4 class="fw-bold mb-3">
+              Easy Task Management
+            </h4>
+            <p class="text-secondary">
+              Create and organize your daily tasks
+              effortlessly with a clean and simple interface.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 2 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg rounded-4 h-100">
+          <div class="card-body text-center p-5">
+            <div class="display-4 mb-3">
+              🚀
+            </div>
+            <h4 class="fw-bold mb-3">
+              Boost Productivity
+            </h4>
+            <p class="text-secondary">
+              Stay focused on your goals and
+              manage your workflow more efficiently.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 3 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg rounded-4 h-100">
+          <div class="card-body text-center p-5">
+            <div class="display-4 mb-3">
+              🔒
+            </div>
+            <h4 class="fw-bold mb-3">
+              Private Workspace
+            </h4>
+            <p class="text-secondary">
+              Keep your personal tasks secure
+              and accessible only to you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 4 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg rounded-4 h-100">
+          <div class="card-body text-center p-5">
+            <div class="display-4 mb-3">
+              🌙
+            </div>
+            <h4 class="fw-bold mb-3">
+              Comfortable Experience
+            </h4>
+            <p class="text-secondary">
+              Enjoy a modern interface designed
+              for both day and night usage.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 5 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg rounded-4 h-100">
+          <div class="card-body text-center p-5">
+            <div class="display-4 mb-3">
+              📱
+            </div>
+            <h4 class="fw-bold mb-3">
+              Responsive Design
+            </h4>
+            <p class="text-secondary">
+              Access and manage your tasks smoothly
+              across desktop, tablet, and mobile devices.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 6 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg rounded-4 h-100">
+          <div class="card-body text-center p-5">
+            <div class="display-4 mb-3">
+              ⚡
+            </div>
+            <h4 class="fw-bold mb-3">
+              Simple & Fast
+            </h4>
+            <p class="text-secondary">
+              A distraction-free experience that helps
+              you manage tasks quickly and efficiently.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">
+      Start Managing Your Tasks Today
+    </h2>
+    <% if(!currentUser) { %>
+      <a
+        href="/signup"
+        class="btn btn-success btn-lg"
+      >
+        Create Free Account
+      </a>
+    <% } else { %>
+      <a
+        href="/todos"
+        class="btn btn-primary btn-lg"
+      >
+        Open Dashboard
+      </a>
+    <% } %>
+  </div>
+</section>
