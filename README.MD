@@ -32,10 +32,7 @@ This application allows users to securely manage their personal tasks with authe
 - Productivity Percentage
 - Task Status Indicators
 
-### 🔍 Search Functionality
-
-- Search Todos by Title
-- Instant Filtering Experience
+---
 
 ### 🎨 Modern UI
 
@@ -51,7 +48,7 @@ This application allows users to securely manage their personal tasks with authe
 ## 📂 Project Structure
 
 ```bash
-```text
+
 todo-app
 │
 ├── controllers
@@ -109,7 +106,7 @@ todo-app
 ├── .env
 ├── .gitignore
 └── README.md
-````
+```
 
 ---
 
@@ -263,3 +260,7 @@ Aspiring Full-Stack (MERN) Developer passionate about building modern web applic
 ---
 
 ### If you like this project, don't forget to ⭐ the repository.
+
+```
+
+```
