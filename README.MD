@@ -191,7 +191,7 @@ nodemon server.js
 ### Landing Page
 
 ![Landing Page Preview](./screenshots/landing-page.png)
-![Dark Theme](./screenshots/dark-page.png)
+![Dark Theme](./screenshots/dark.png)
 
 ### Home Page
 
