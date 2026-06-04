@@ -169,20 +169,27 @@ nodemon server.js
 
 ## 📸 Screenshots
 
+### Lading Page
+- ![Landing Pag Preview](./screenshots/landing-page.png)
+- ![](./screenshots/dark-page.png)
+
 ### Home Page
-- Modern Landing Page
-- Feature Cards
-- Dark/Light Mode
+- ![Home Page Preview](./screenshots/home-page.png)
 
-### Dashboard
-- Task Statistics
-- Search Bar
-- Task Cards
-- Productivity Tracker
+### Create Page
+- ![Create Page Preview](./screenshots/create-page.png)
 
-### Authentication
-- Signup Page
-- Login Page
+### Edit Page
+- ![Create Page Preview](./screenshots/edit-page.png)
+
+### Show Single Todo Page
+- ![Create Page Preview](./screenshots/show-page.png)
+
+### Signup Page
+- ![Signup Page Preview](./screenshots/signup-page.png)
+
+### Login Page
+- ![Login Page Preview](./screenshots/signup-page.png)
 
 ---
 
