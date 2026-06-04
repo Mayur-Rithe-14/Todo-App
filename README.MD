@@ -95,8 +95,6 @@ Todo-App
 ├── server.js
 ├── package.json
 ├── package-lock.json
-├── .env
-└── .gitignore
 ```
 
 ---
@@ -179,34 +177,34 @@ nodemon server.js
 
 ## 📸 Screenshots
 
-### Lading Page
+### Landing Page
 
-- ![Landing Pag Preview](./screenshots/landing-page.png)
-- ![](./screenshots/signup-page.png)
+![Landing Page Preview](./screenshots/landing-page.png)
+![Dark Theme](./screenshots/dark-page.png)
 
 ### Home Page
 
-- ![Home Page Preview](./screenshots/home-page.png)
+![Home Page Preview](./screenshots/home-page.png)
 
 ### Create Page
 
-- ![Create Page Preview](./screenshots/create-page.png)
+![Create Page Preview](./screenshots/create-page.png)
 
 ### Edit Page
 
-- ![Create Page Preview](./screenshots/edit-page.png)
+![Edit Page Preview](./screenshots/edit-page.png)
 
 ### Show Single Todo Page
 
-- ![Create Page Preview](./screenshots/show-page.png)
+![Show Page Preview](./screenshots/show-page.png)
 
 ### Signup Page
 
-- ![Signup Page Preview](./screenshots/signup-page.png)
+![Signup Page Preview](./screenshots/signup-page.png)
 
 ### Login Page
 
-- ![Login Page Preview](./screenshots/signup-page.png)
+![Login Page Preview](./screenshots/login-page.png)
 
 ---
 
