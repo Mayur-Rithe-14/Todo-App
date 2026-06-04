@@ -50,7 +50,7 @@ This application allows users to securely manage their personal tasks with authe
 
 ## 📂 Project Structure
 
-````bash
+```bash
 ```text
 todo-app
 │
