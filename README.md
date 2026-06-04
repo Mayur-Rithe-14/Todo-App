@@ -9,6 +9,7 @@ This application allows users to securely manage their personal tasks with authe
 ## 🚀 Live Features
 
 ### 🔐 User Authentication
+
 - User Signup
 - User Login
 - User Logout
@@ -16,6 +17,7 @@ This application allows users to securely manage their personal tasks with authe
 - Protected Routes
 
 ### ✅ Task Management
+
 - Create Todo
 - View Todo Details
 - Edit Todo
@@ -24,16 +26,19 @@ This application allows users to securely manage their personal tasks with authe
 - Personal Todo Dashboard
 
 ### 📊 Dashboard Features
+
 - Total Tasks Counter
 - Completed Tasks Counter
 - Productivity Percentage
 - Task Status Indicators
 
 ### 🔍 Search Functionality
+
 - Search Todos by Title
 - Instant Filtering Experience
 
 ### 🎨 Modern UI
+
 - Responsive Design
 - Bootstrap 5 Layout
 - Dark / Light Mode
@@ -99,25 +104,30 @@ Todo-App
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - HTML5
 - CSS3
 - Bootstrap 5
 - EJS
 
 ### Backend
+
 - Node.js
 - Express.js
 
 ### Database
+
 - MongoDB
 - Mongoose
 
 ### Authentication
+
 - Passport.js
 - Passport Local
 - Express Session
 
 ### Utilities
+
 - Method Override
 - Dotenv
 - Connect Flash
@@ -170,26 +180,33 @@ nodemon server.js
 ## 📸 Screenshots
 
 ### Lading Page
-- ![Landing Pag Preview](./screenshots/landing-page.png)
-- ![](./screenshots/dark-page.png)
+
+![Landing Pag Preview](./screenshots/landing-page.png)
+![](./screenshots/dark-page.png)
 
 ### Home Page
-- ![Home Page Preview](./screenshots/home-page.png)
+
+![Home Page Preview](./screenshots/home-page.png)
 
 ### Create Page
-- ![Create Page Preview](./screenshots/create-page.png)
+
+![Create Page Preview](./screenshots/create-page.png)
 
 ### Edit Page
-- ![Create Page Preview](./screenshots/edit-page.png)
+
+![Create Page Preview](./screenshots/edit-page.png)
 
 ### Show Single Todo Page
-- ![Create Page Preview](./screenshots/show-page.png)
+
+![Create Page Preview](./screenshots/show-page.png)
 
 ### Signup Page
-- ![Signup Page Preview](./screenshots/signup-page.png)
+
+![Signup Page Preview](./screenshots/signup-page.png)
 
 ### Login Page
-- ![Login Page Preview](./screenshots/signup-page.png)
+
+![Login Page Preview](./screenshots/signup-page.png)
 
 ---
 
