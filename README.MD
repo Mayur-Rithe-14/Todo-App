@@ -1,12 +1,12 @@
 # 📝 Todo App
 
-A modern full-stack Todo Application built with Node.js, Express.js, MongoDB, EJS, and Bootstrap.
+A full-stack task management application built with Node.js, Express.js, MongoDB, EJS, Bootstrap, and Passport.js for secure user authentication.
 
 This application allows users to securely manage their personal tasks with authentication, task tracking, search functionality, dark/light mode, and a responsive dashboard.
 
 ---
 
-## 🚀 Live Features
+## 🚀 Key Features
 
 ### 🔐 User Authentication
 
@@ -50,8 +50,9 @@ This application allows users to securely manage their personal tasks with authe
 
 ## 📂 Project Structure
 
-```bash
-Todo-App
+````bash
+```text
+todo-app
 │
 ├── controllers
 │   ├── todos.js
@@ -62,20 +63,30 @@ Todo-App
 │   └── user.js
 │
 ├── public
-│   ├── style.css
-│   └── script.js
+│   ├── script.js
+│   └── style.css
 │
 ├── routes
 │   ├── todoRoutes.js
 │   └── userRoutes.js
+│
+├── screenshots
+│   ├── create-page.png
+│   ├── dark-page.png
+│   ├── edit-page.png
+│   ├── home-page.png
+│   ├── landing-page.png
+│   ├── login-page.png
+│   ├── show-page.png
+│   └── signup-page.png
 │
 ├── utils
 │   └── wrapAsync.js
 │
 ├── views
 │   ├── includes
-│   │   ├── navbar.ejs
-│   │   └── footer.ejs
+│   │   ├── footer.ejs
+│   │   └── navbar.ejs
 │   │
 │   ├── layouts
 │   │   └── boilerplate.ejs
@@ -95,7 +106,10 @@ Todo-App
 ├── server.js
 ├── package.json
 ├── package-lock.json
-```
+├── .env
+├── .gitignore
+└── README.md
+````
 
 ---
 
@@ -212,15 +226,14 @@ nodemon server.js
 
 Through this project I learned:
 
-- RESTful Routing
 - MVC Architecture
-- User Authentication
-- Session Management
-- MongoDB Relationships
+- RESTful Routing
 - CRUD Operations
-- Responsive Web Design
-- Bootstrap UI Development
-- Dark/Light Theme Implementation
+- Authentication & Authorization
+- Session Management
+- MongoDB Data Modeling
+- Express Middleware
+- Responsive UI Design
 
 ---
 
@@ -232,8 +245,8 @@ Aspiring Full-Stack (MERN) Developer passionate about building modern web applic
 
 ### Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/mayur-rithe-ab527a306/
-- GitHub: https://github.com/Mayur-Rithe-14
+- GitHub: [Mayur-Rithe-14](https://github.com/Mayur-Rithe-14)
+- LinkedIn: [Mayur Rithe](https://www.linkedin.com/in/mayur-rithe-ab527a306/)
 
 ---
 
