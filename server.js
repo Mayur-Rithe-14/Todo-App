@@ -4,23 +4,16 @@ require("dotenv").config();
 
 const express = require("express");
 const app = express();
-
 const path = require("path");
 const methodOverride = require("method-override");
-
 const mongoose = require("mongoose");
-
 const todoRoutes = require("./routes/todoRoutes");
 const userRoutes = require("./routes/userRoutes");
-
 const session = require("express-session");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
-
 const User = require("./models/user.js");
-
 const ejsMate = require("ejs-mate");
-
 const {isLoggedIn} = require("./middleware.js");
 
 /* ========== DATABASE CONNECTION LOGIC ========== */
