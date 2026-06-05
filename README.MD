@@ -6,6 +6,12 @@ This application allows users to securely manage their personal tasks with authe
 
 ---
 
+## 🌐 Live Demo
+
+👉 **Visit Here:** [Todo App Live](https://todo-app-i3zo.onrender.com)
+
+---
+
 ## 🚀 Key Features
 
 ### 🔐 User Authentication
@@ -261,6 +267,4 @@ Aspiring Full-Stack (MERN) Developer passionate about building modern web applic
 
 ### If you like this project, don't forget to ⭐ the repository.
 
-```
-
-```
+---
