@@ -8,7 +8,7 @@ This application allows users to securely manage their personal tasks with authe
 
 ## 🌐 Live Demo
 
-👉 **Visit Here:** [Todo App Live](https://todo-app-i3zo.onrender.com)
+🔗 **Live Website:** https://todo-app-i3zo.onrender.com
 
 ---
 
