@@ -181,13 +181,13 @@ SECRET=your_session_secret
 ### Run Application
 
 ```bash
-node server.js
+npm start
 ```
 
 or
 
 ```bash
-nodemon server.js
+npm run dev
 ```
 
 ---
