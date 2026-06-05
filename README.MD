@@ -188,7 +188,7 @@ nodemon server.js
 
 ## 📸 Screenshots
 
-### Landing Page
+### Landing Page (Dark/Light)
 
 ![Landing Page Preview](./screenshots/landing-page.png)
 ![Dark Theme](./screenshots/dark.png)
